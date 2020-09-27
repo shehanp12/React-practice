@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Counter  from "./components/counter";
+import  SideNavigation from './components/sideNavigatotion';
+
+
+
 
 
 ReactDOM.render(
-    <Counter/>
+    <SideNavigation/>
   , document.getElementById('root')
 );
 
